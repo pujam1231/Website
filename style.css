@@ -1,5 +1,5 @@
 body{
-  background: #EFC7C2;
+  background: #F1D1CD;
 }
 
 div.name{
@@ -10,9 +10,9 @@ div.name{
   text-align: center;
   top: 50%;
   width: 100%;
-  font-size: 85px;
+  font-size: 540%;
   font-family: 'Lora', serif;
-  color: #713E5A;
+  color: #C76D7E;
   font-weight: 400;
 }
 
@@ -21,9 +21,9 @@ div.name{
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 1.5%;
   text-align: center;
-  font-size: 40px;
+  font-size: 240%;
 }
 
 .navbar a {
@@ -39,4 +39,46 @@ div.name{
 
 .navbar a:hover {
   color: #713E5A;
+}
+
+.icons{
+  /* overflow: hidden;
+  justify-content: flex-end;
+  position: fixed; */
+  /* position:absolute; */
+  /* margin-right: 1%; */
+  /* bottom: 1%;
+  width: 100%;
+  font-size: 40px; */
+
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 10px;
+  right: -80%;
+  font-size: 37px;
+  height: 60px;
+  width: 100%;
+
+  /* z-index: 99; */
+}
+
+/* .flexrow{
+  display: flex;
+  align-items: center;
+} */
+
+.fa {
+  padding: .7%;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+  color:#93B7BE;
+}
+
+.fa-facebook {
+  background: #93B7BE;
+  color: white;
 }
