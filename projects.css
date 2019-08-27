@@ -1,0 +1,210 @@
+body{
+  background: #E3E4E5;
+}
+
+.active img{
+  width:350px;
+  padding-top:20px;
+  padding-left: 2px;
+}
+
+
+hr{
+  display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+   margin: -1.5em 0;
+   padding: 7px;
+}
+.navbar {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+.navbar a {
+  color: #000;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  color: #93B7BE;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Lora', serif;
+  /* margin: 40px; */
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+
+.column{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow:wrap;
+}
+
+#box{
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background-color: rgba(230,186,176,.35);
+  margin: 5%;
+  margin-top:20px;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+#box:hover{
+  background-color: rgba(230,186,176,.35);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.title{
+  position: absolute;
+  width:450px;
+  height:125px;
+  margin-top:162px;
+  background-color: rgba(255,255,255,0.6);
+  /* z-index: 99; */
+}
+ .words{
+  position: relative;
+  padding-top:42px;
+  font-family: 'Lora', serif;
+  font-style:normal;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(147,183,190,1);
+  /* z-index: 100; */
+ }
+
+
+#box img{
+  position: absolute;
+  width:450px;
+  height:450px;
+  opacity: .3;
+  z-index: -1;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /*Hidden by default*/
+  position: absolute; /*Stay in place*/
+  z-index: 1; /* Sit on top */
+  padding:0;
+  margin:0;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:auto;
+  height: auto;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #E3E4E5;
+  padding: 20px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 35px;
+  width:70%;
+  height:auto;
+  margin-left:15%;
+  margin-top:20%;
+}
+
+h2{
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  color: #93B7BE;
+  margin:0px;
+}
+
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top:10px;
+}
+
+p{
+  font-family: 'Lora', serif;
+  padding-top:10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+
+.icons{
+  justify-content: flex-end;
+  /* position: fixed; */
+  bottom: 10px;
+  text-align: right;
+  right: 1.5%;
+
+  font-size: 37px;
+  height: 60px;
+  width: 100%;
+}
+
+.fa {
+  padding: .7%;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+  color:#93B7BE;
+}
+
+.fa-facebook {
+  background: #93B7BE;
+  color: white;
+}

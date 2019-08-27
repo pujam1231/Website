@@ -11,50 +11,16 @@ div.name{
   text-align: center;
   top: 50%;
   width: 100%;
-  font-size: 540%;
+  font-size: 95px;
+  /* font-size:540%; */
   font-family: 'Lora', serif;
   color: #E6BAB0;
   font-weight: 400;
 }
 
 div.name img{
-  /* position: relative; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
   margin-top: 100px;
   width:150px;
-  /* margin: middle; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  /* left: 0; */
-  /* line-height: 100px; */
-  /* margin-top: -100px; */
-  /* position: absolute; */
-  /* text-align: center; */
-
-  /* width: 130px;
-  top: 55%; */
-  /* width: 100%; */
-  /* overflow: hidden;
-  position: absolute;
-  text-align: center; */
-
-    /* margin:400px; */
-
-    /* display: block;
-    position: absolute;
-
-    margin-left: auto;
-    margin-right: auto; */
-    /* padding-top:50px; */
-    /* width: 130px; */
-
-  /* top: 50%;
-  /* width: 100%; */
-  /* margin-top: 1.5%;
-  font-size: 240%;  */
 }
 
 
@@ -63,9 +29,8 @@ div.name img{
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: 1.5%;
+  margin-top: 30px;
   text-align: center;
-  font-size: 240%;
 }
 
 .navbar a {
@@ -76,7 +41,7 @@ div.name img{
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .navbar a:hover {
@@ -89,13 +54,12 @@ div.name img{
   bottom: 10px;
   text-align: right;
   right: 1.5%;
-
   font-size: 37px;
   height: 60px;
   width: 100%;
 }
 
-.fa {
+.fa{
   padding: .7%;
   font-size: 30px;
   width: 30px;
@@ -104,9 +68,4 @@ div.name img{
   margin: 5px 2px;
   border-radius: 70%;
   color:#93B7BE;
-}
-
-.fa-facebook {
-  background: #93B7BE;
-  color: white;
 }

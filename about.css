@@ -44,10 +44,11 @@ hr{
 h2{
   font-size: 50px;
   text-align: center;
-  color:#E3E4E5;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  color:#000;
   font-family: 'Lora', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 
 }
 
@@ -56,16 +57,57 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 100px;
   background-color: #E6BAB0;
   padding-left: 50px;
-  padding-top: 15px;
   padding-right: 50px;
-  /* border:1px solid black; */
-
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .pic{
   width: 100%;
-  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: 'Lora', serif;
+  font-size: 15px;
+}
+
+p a{
+  color: black;
+  text-decoration: none;
+}
+
+p a:hover{
+  color: #93B7BE;
+}
+
+.icons{
+  justify-content: flex-end;
+  bottom: 10px;
+  text-align: right;
+  right: 1.5%;
+
+  font-size: 37px;
+  height: 60px;
+  width: 100%;
+}
+
+.fa {
+  padding: .7%;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+  color:#93B7BE;
+}
+
+.fa-facebook {
+  background: #93B7BE;
+  color: white;
 }
