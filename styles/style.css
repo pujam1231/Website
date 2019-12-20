@@ -131,6 +131,10 @@ i.fab{
 /* MEDIA QUERY */
 @media(max-width:600px){
 
+  body{
+    overflow: hidden;
+  }
+
   .main{
     top:40%;
     overflow: hidden;
