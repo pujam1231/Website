@@ -131,6 +131,9 @@ i.fab{
 /* MEDIA QUERY */
 @media(max-width:600px){
 
+  .contianer{
+    position: relative;
+  }
   body{
     overflow: hidden;
   }
