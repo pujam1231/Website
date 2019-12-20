@@ -128,6 +128,9 @@ i.fab{
 
 /* MEDIA QUERY */
 @media(max-width:600px){
+  .main{
+    top:40%;
+  }
   .header h1{
     font-size: 60px;
   }
@@ -136,7 +139,11 @@ i.fab{
     flex-direction: column;
   }
 
+  .navbar li{
+    margin:5px 0px;
+  }
   .footer .container{
+    margin-top:0;
     margin-right:none;
     justify-content: center;
   }
