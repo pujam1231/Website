@@ -152,8 +152,11 @@ i.fab{
   }
 
   .footer{
-    bottom:none;
+    position: absolute;
+    bottom:unset;
+    top:80%;
   }
+
 
   .container{
     justify-content: center;
