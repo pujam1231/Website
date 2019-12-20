@@ -133,6 +133,7 @@ i.fab{
 
   .main{
     top:40%;
+    overflow: hidden;
   }
 
   .header h1{
