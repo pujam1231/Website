@@ -126,3 +126,18 @@ i.fab{
   width: 100%;
 }
 
+/* MEDIA QUERY */
+@media(max-width:600px){
+  .header h1{
+    font-size: 80px;
+  }
+
+  .navbar ul{
+    flex-direction: column;
+  }
+
+  .footer .container{
+    margin-right:none;
+    justify-content: center;
+  }
+}
