@@ -36,6 +36,7 @@ h1{
 
 a{
   text-decoration: none;
+  color:var (--fourth-color);
 }
 
 a:visited{
@@ -195,7 +196,5 @@ i.far{
     bottom:unset;
     top:80%;
   }
-
-
   
 }
