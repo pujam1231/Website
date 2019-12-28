@@ -11,66 +11,101 @@
 
 </head>
 <body>
+  <script>
+    function responsiveNav(){
+      var x = document.getElementById("navbar");
+      if(x.className == "navbar"){
+        x.className += "responsive";
+        console.log(x.cl)
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
 
-  <div class="container">
-    <a class = "active" href="./index.html"><img src="./images/logo3.jpg"></img></a>
-  </div>
-
-  <hr>
-
-  <!-- <div class="navbar">
-      <a href="./about.html">About me</a>
-      <a href="./construction.html">Projects</a>
-      <a href="./construction.html">Photography</a>
-      <a href="./experience.html">Experience</a>
-  </div> -->
-
-  <div class="navbar">
-      <div class="container">
-        <ul>
-          <li><a href="./about.html">About me</a></li>
-          <li><a href="./construction.html">Projects</a></li>
-          <li><a href="./construction.html">Photography</a></li>
-          <li><a href="./experience.html">Experience</a></li>
-        </ul>
+ <div class="header">
+    <div class="container">
+      <div class="name">
+        <h1><a href="./index.html">Puja Maheshwari</a></h1>
+        <div class="header-icons">
+          <a href="https://www.pinterest.com/pujam1231/">
+            <i class="fab fa-pinterest fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/flytheunknown/">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://github.com/pujam1231">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/puja-m-454997138/">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+        </div>
       </div>
+
+      <div class="navbar" id="navbar">
+          <ul>
+            <li><a href="./about.html">About me</a></li>
+            <li><a href="./construction.html">Projects</a></li>
+            <li><a href="./construction.html">Photography</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+
+            <li><a href="#" class="menu" onclick="responsiveNav()">
+                <i class="fas fa-bars bars"></i>
+                <i class="fas fa-times close"></i>
+            </a></li>
+          </ul>
+      </div>
+    </div>
   </div>
 
-<div class = "picture">
-  <h2>About Me</h2>
-  <img src="./images/aboutpic.jpg" class = "pic">
-  <p>
-    Hi, I’m Puja Maheshwari, a girl born and raised in the Bay Area, California, who somehow
-    ended up in the middle of Indiana. This Fall I will be a junior at Purdue University majoring
-    in Computer Science and minoring in Statistics.<br> <br>
+<div class = "about-body">
+  <div class="container">
+    <h2>About Me</h2>
+    <img src="./images/aboutpic.jpg">
+    <p>
+      Hi, I’m Puja Maheshwari! I am currently a junior at Purdue University majoring
+      in Computer Science and minoring in Statistics. I was born and raised in the Bay Area, California. <br> <br>
 
-    Since I was young I have loved to dance, and have learned a variety of Indian dance types. The
-    past couple years I’ve even been on a nationally competitive Indian dance team, Boiler Bhangra,
-    at my school! <br> <br>
+      Since I was young I have loved to dance and have learned a variety of Indian dance types. Over the
+      past couple years I’ve been on a nastionally competitive Indian dance team, Boiler Bhangra,
+      at my school! <br> <br>
 
-    I also enjoy traveling and taking pictures. I believe traveling and experiencing a variety of
-    cultures and backgrounds is extremely important. I hope my photography can capture how I see
-    different cultures and countries through my eyes and perspective.<br> <br>
+      In my free time I enjoy traveling and taking pictures. I believe traveling and experiencing a variety of
+      cultures and backgrounds is extremely important to opening our eyes and bringing us closer together. 
+      Through my photography I hope to capture the small similarities in the diverseness of different cultures and countries. <br> <br>
 
-    As a girl coder, I strongly believe in having an equal playing field in tech fields and hope to
-    help work towards bridging the gender gap in STEM fields and spread more awareness of this issue.
-    I aspire to one day start my own company and encourage other young girls to do the same.<br> <br>
+      As a girl coder, I strongly believe in having an equal playing field in tech fields. I want to take part in the movement 
+      of bridging the gender gap in STEM fields especially by spreading more awareness of this issue.<br> <br>
 
-    I hope my website can serve as a platform to share my dancing, pictures, travel adventures, technical
-    projects, and my other hobbies include cooking, discovering new viewpoints, and sipping coffee!!<br> <br>
+      I hope my website can serve as a platform to share not only my dancing, pictures, travel adventures, and technical projects, 
+      but also my other hobbies such as cooking, discovering new viewpoints, and sipping coffee!!<br> <br>
 
-    If you would like to contact me for a technical or photography collaboration, please email me at
-    <a href="mailto:flytheunknown@gmail.com">flytheunknown@gmail.com</a>. You can also reach me at any of my social media accounts linked below!
-  </p>
+      If you would like to contact me for a technical or photography collaboration, please email me at
+      <a href="mailto:flytheunknown@gmail.com">flytheunknown@gmail.com</a>. You can also reach me at any of my social media 
+      accounts linked below!
+    </p>
+  </div>
 </div>
 
-<div class = "icons">
-  <a href="https://www.pinterest.com/pujam1231/" class="fa fa-pinterest"></a>
-  <a href="https://www.instagram.com/flytheunknown/" class="fa fa-instagram"></a>
-  <a href="https://github.com/pujam1231" class="fa fa-github"></a>
-  <a href="https://www.linkedin.com/in/puja-m-454997138/" class="fa fa-linkedin"></a>
-</div>
-
+<footer class="footer icons">
+    <div class = "container">
+      <i class="far fa-copyright copyright"></i>
+      <h3> Puja Maheshwari 2019 | </h3>
+      <a href="https://www.pinterest.com/pujam1231/">
+        <i class="fab fa-pinterest fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/flytheunknown/">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://github.com/pujam1231">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/puja-m-454997138/">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+    </div>
+</footer> 
 
 </body>
 </html>
