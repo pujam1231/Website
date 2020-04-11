@@ -3,70 +3,114 @@
 <head>
   <link rel="stylesheet" href="./styles/experience.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <script type="text/javascript" src="instafeed.js-master/instafeed.min.js"></script> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <script src="http://pujamaheshwari.s3.amazonaws.com/index.html#/instafeed.js-master/instafeed.min.js"></script> -->
-  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f74dc3ff01.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-  <center><a class = "active" href="./index.html"><img src="./images/logo3.jpg"></img></a></center>
-  <hr>
+  <script>
+    function responsiveNav(){
+      var x = document.getElementById("navbar");
+      if(x.className == "navbar"){
+        x.className += "responsive";
+        console.log(x.cl)
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
 
-  <div class="navbar">
-      <a href="./about.html">About me</a>
-      <a href="./construction.html">Projects</a>
-      <a href="./construction.html">Photography</a>
-      <a href="./experience.html">Experience</a>
+  <div class="header">
+    <div class="container">
+      <div class="name">
+        <h1><a href="./index.html">Puja Maheshwari</a></h1>
+        <div class="header-icons">
+          <a href="https://www.pinterest.com/pujam1231/">
+            <i class="fab fa-pinterest fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/flytheunknown/">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://github.com/pujam1231">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/puja-m-454997138/">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar" id="navbar">
+          <ul>
+            <li><a href="./about.html">About me</a></li>
+            <li><a href="./construction.html">Projects</a></li>
+            <li><a href="./construction.html">Photography</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+
+            <li><a href="#" class="menu" onclick="responsiveNav()">
+                <i class="fas fa-bars bars"></i>
+                <i class="fas fa-times close"></i>
+            </a></li>
+          </ul>
+      </div>
+    </div>
   </div>
 
-  <div class = "experience">
-    <h2>Experience</h2>
-        <h3>Vail Systems | Software Engineering Intern | May - August 2019 </h3><br>
-        <p>
-            • Vail automates and provides caller experience for support teams of enterprise businesses.
-            Worked on a full stack tool to help Vail’s customers configure threshold rules for types of voice traffic. When reached, these rules would send alerts providing valuable business insight. 
-            <br>• Developed the frontend using React JS and wrote the backend and API layer with Ruby on Rails. We used Apache Kafka as a messaging handler to communicate with Vail’s existing systems and alerting tools. We wrote unit tests using RSpec and Cucumber and tested through a Jenkins pipeline. 
-            <br>• Tool to be used to streamline the process of creating rules within the company and allow for clients to easily create rules themselves
-            <br><br>
-        </p>
+  <div class = "experience-body">
+    <div class="container">
+      <h2>Experience</h2>
+          <p>Vail Systems | Software Engineering Intern | May - August 2019 </p>
+            <ul>
+              <li>Vail automates and provides caller experience for support teams of enterprise businesses.
+              Worked on a full stack tool to help Vail’s customers configure threshold rules for types of voice traffic. When reached, these rules would send alerts providing valuable business insight.</li>
+              <li>Developed the frontend using React JS and wrote the backend and API layer with Ruby on Rails. We used Apache Kafka as a messaging handler to communicate with Vail’s existing systems and alerting tools. We wrote unit tests using RSpec and Cucumber and tested through a Jenkins pipeline.</li>
+              <li>Tool to be used to streamline the process of creating rules within the company and allow for clients to easily create rules themselves</li>
+            </ul>
 
+          <p>Undergraduate Teaching Assistant CS 177 | Purdue University	| August 2019-Present </p>
+            <ul>
+              <li>TA labs for Programming in Python</li>
+              <li>Hold office hours in evenings to provide supplemental help to students</li>
+            </ul>
 
-        <h3>Undergraduate Teaching Assistant CS 177 | Purdue University	| August 2019-Present </h3><br>
-        <p>
-            • TA labs for Programming in Python
-            <br>• Hold office hours in evenings to provide supplemental help to students
-            <br><br>
-        </p>
+          <p>Apttus | Software Engineering Intern (CPQ Team) | June - August 2018 </p>
+            <ul>
+              <li>Developed a differential tool that compares incremental product orders and services to highlight price differences to both buyers and sellers. Tool would be used to provide a quote to clients that shows the best products, services, and configurations for the client’s needs.</li>
+              <li>Used Java and JSON to create this differential tool and added it as a REST API endpoint in the Apttus platform.</li>
+            </ul>
 
-        <h3>Apttus | Software Engineering Intern (CPQ Team) | June - August 2018 </h3><br>
-        <p>
-            • Developed a differential tool that compares incremental product orders and services to highlight price differences to both buyers and sellers. Tool would be used to provide a quote to clients that shows the best products, services, and configurations for the client’s needs. 
-            <br>• Used Java and JSON to create this differential tool and added it as a REST API endpoint in the Apttus platform.  
-            <br><br>
-        </p>
+          <p>Wallify | Web App Developer | <a href = "https://wallifyy.herokuapp.com/">https://wallifyy.herokuapp.com/</a> | April 2019 - Present</p>
+            <ul>
+              <li>Developed a web application which allows users to create custom wallpapers using the data from their Spotify account. Users can select varying time frames and the app will return a wallpaper with the album covers of their 18 top played tracks during the specified period. User has the option to download the wallpaper as well.</li>
+            </ul>
 
-        <h3>Wallify | Web App Developer | <a href = "https://wallifyy.herokuapp.com/">https://wallifyy.herokuapp.com/</a> | April 2019 - Present</h3><br>
-        <p>
-            • Developed a web application which allows users to create custom wallpapers using the data from their Spotify account. Users can select varying time frames and the app will return a wallpaper with the album covers of their 18 top played tracks during the specified period. User has the option to download the wallpaper as well. 
-            <br><br>
-        </p>
-
-        <h3>LaunchPad | Mentee | <a href = "https://github.com/pujam1231/LaunchPad">https://github.com/pujam1231/LaunchPad</a> | September - December 2017</h3><br>
-        <p>
-            • Program where 35 mentees are paired with individual mentors to work on a coding project
-            <br>• Coded an iOS application with the help of my mentor which helps teach young girls how to code in a fun way
-        </p>
+          <p>LaunchPad | Mentee | <a href = "https://github.com/pujam1231/LaunchPad">https://github.com/pujam1231/LaunchPad</a> | September - December 2017</p>
+            <ul>
+              <li>Program where 35 mentees are paired with individual mentors to work on a coding project.</li>
+              <li>Coded an iOS application with the help of my mentor which helps teach young girls how to code in a fun way.</li>
+            </ul>
+    </div>
   </div>
 
-<div class = "icons">
-  <a href="https://www.pinterest.com/pujam1231/" class="fa fa-pinterest"></a>
-  <a href="https://www.instagram.com/flytheunknown/" class="fa fa-instagram"></a>
-  <a href="https://github.com/pujam1231" class="fa fa-github"></a>
-  <a href="https://www.linkedin.com/in/puja-m-454997138/" class="fa fa-linkedin"></a>
-</div>
-
+<footer class="footer icons">
+    <div class = "container">
+      <i class="far fa-copyright copyright"></i>
+      <h3> Puja Maheshwari 2019 | </h3>
+      <a href="https://www.pinterest.com/pujam1231/">
+        <i class="fab fa-pinterest fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/flytheunknown/">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://github.com/pujam1231">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/puja-m-454997138/">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+    </div>
+</footer> 
 
 </body>
 </html>

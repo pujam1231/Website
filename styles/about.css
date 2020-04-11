@@ -65,9 +65,9 @@ i.far{
   margin: 0px 5px;
 } 
 
-.icons i.fab:hover{
-  color:var(--third-color)
-} 
+i.fab:hover{
+  color:var(--third-color);
+}
 
 /* HEADER & HEADER SPACING*/
 
@@ -232,9 +232,10 @@ h3{
     grid-column-end: 5;
   }
 
-  .navbar a.menu {
+  .navbar .menu {
     display:grid;
   }
+
 }
 
 @media screen and (max-width: 880px) {
@@ -246,7 +247,6 @@ h3{
 
   .navbarresponsive .bars{
     display: none;
-
   }
 
   .navbarresponsive a:hover{
